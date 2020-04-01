@@ -1,8 +1,6 @@
 import React from 'react';
 import Chart from './Chart';
-
-const models = ['USD', 'EUR', 'RUB'];
-const palette = ['green', 'blue', 'purple'];
+import { models, palette } from './ENUM'
 
 const Charts = ({ chartsSelected }) => {
   return (

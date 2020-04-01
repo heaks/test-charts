@@ -1,6 +1,5 @@
 import React from 'react';
-
-const models = ['USD', 'EUR', 'RUB'];
+import { models } from './ENUM'
 
 const ModelsSelectors = ({ chartsSelected, setChartsSelected }) => (
   <div className={'models-selector'}>
